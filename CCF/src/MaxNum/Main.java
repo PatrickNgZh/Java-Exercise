@@ -16,6 +16,7 @@
 //10 1 10 20 30 20
 //样例输出
 //10
+package MaxNum;
 
 import java.util.*;
 
@@ -42,3 +43,6 @@ public class Main {
 		System.out.println(result);
 	}
 }
+
+
+
