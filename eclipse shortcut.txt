@@ -1,0 +1,13 @@
+注释  ctrl+/
+格式化 ctrl+shift+f     对于失效问题，应该先按alt+shift+s
+向上或向下复制一行   ctrl+alt+up\down   如果遇到屏幕倒转，右键显卡快捷键关闭
+Ctrl+D: 删除当前行 
+从一行的任何一处到下一行   shift+enter
+删除光标前的单词   ctrl+Backspace
+
+idea shortcut http://www.cnblogs.com/xsgame/p/3481854.html
+
+上插一行  ctrl+enter   注意如果不是行头则在单词间插入一行
+
+光标移动到行首  home
+行尾  end
