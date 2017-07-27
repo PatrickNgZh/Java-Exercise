@@ -44,14 +44,14 @@ public class Main {
     		String str = s.nextLine() ;
     		
     		str = str.replaceAll("\\,", "").replaceAll("\\.", "").toLowerCase() ;
-    		String strs[] = str.split("\\s+") ;
+    		String strs[] = str.split("\\s+") ;//\\s表示 空格,回车,换行等空白符,
     		Arrays.sort(strs) ;
     		for (int i = 0; i < strs.length; i++) {
     			int sum = 1 ;
-    			for (int j = i+1; j < strs.length; j++) {
+    			for (int j = i+1; j < strs.length; j++) { 
     				if(strs[i].equals(strs[j])){
     					sum++ ;
-    					strs[j]="" ;
+    					strs[j]="" ;//  remove the same string
     				}
     				
     			}
